@@ -16,7 +16,6 @@
                 font-family: sans-serif;
             }
             dt {
-                font-weight: bold;
                 margin-top: 0.5rem;
                 margin-bottom: 0.2rem;
             }
