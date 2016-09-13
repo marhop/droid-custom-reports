@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportSpec>
+    <Name>File formats by PUID and format name</Name>
+    <Items>
+        <Item>
+            <Description>File formats by PUID and format name</Description>
+            <Field>FILE_SIZE</Field>
+            <GroupByFields>
+                <GroupByField><Field>PUID</Field></GroupByField>
+                <GroupByField><Field>FILE_FORMAT</Field></GroupByField>
+                <GroupByField><Field>FORMAT_VERSION</Field></GroupByField>
+            </GroupByFields>
+            <Filter>
+                <Enabled>true</Enabled>
+                <Narrowed>true</Narrowed>
+                <Criteria>
+                    <FieldName>RESOURCE_TYPE</FieldName>
+                    <Operator>NONE_OF</Operator>
+                    <Value>"Folder"</Value>
+                    <Parameter>
+                        <Id>0</Id>
+                        <Description>Folder</Description>
+                        <Value>0</Value>
+                    </Parameter>
+                    <RowNumber>0</RowNumber>
+                </Criteria>
+            </Filter>
+        </Item>
+    </Items>
+</ReportSpec>
