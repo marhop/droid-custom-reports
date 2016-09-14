@@ -9,7 +9,6 @@
 <xsl:template match="/Report">
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
         <title>DROID Report: <xsl:value-of select="Title" /></title>
         <style type="text/css">
             html {
