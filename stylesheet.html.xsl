@@ -9,7 +9,7 @@
 <xsl:template match="/Report">
 <html lang="en">
     <head>
-        <title>DROID Report: <xsl:value-of select="Title" /></title>
+        <title>DROID report: <xsl:value-of select="Title" /></title>
         <style type="text/css">
             html {
                 font-family: sans-serif;
@@ -40,13 +40,13 @@
 </xsl:template>
 
 <xsl:template match="Title">
-    <h1>DROID Report: <xsl:value-of select="." /></h1>
+    <h1>DROID report: <xsl:value-of select="." /></h1>
 </xsl:template>
 
 <xsl:template match="Profile">
     <section>
-        <h2>Profile: <xsl:value-of select="Name" /></h2>
-        <h3>Profile Metadata</h3>
+        <h2>Analysis for profile <xsl:value-of select="Name" /></h2>
+        <h3>Profile metadata</h3>
         <dl>
             <dt>Resources</dt>
             <xsl:apply-templates select="ProfileSpec/Resources/*" />
@@ -74,7 +74,7 @@
             <dt>Analyse content of web archive files (arc, warc)</dt>
             <dd><xsl:value-of select="ProcessWebArchiveFiles" /></dd>
         </dl>
-        <h3>Profile Results</h3>
+        <h3>Profile results</h3>
         <xsl:apply-templates select="../../ReportItems/ReportItem">
             <xsl:with-param name="profileId" select="@Id" />
         </xsl:apply-templates>
