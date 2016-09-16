@@ -19,7 +19,6 @@
                 margin-bottom: 0.2rem;
             }
             table {
-                border-bottom: 1px solid #F2F2F2;
                 border-collapse: collapse;
             }
             tr:nth-child(odd) {
@@ -28,7 +27,7 @@
             th, td {
                 text-align: left;
                 padding: 0.2rem;
-                border-left: 2px solid #FFFFFF;
+                border: 1px solid #999999;
             }
         </style>
     </head>
