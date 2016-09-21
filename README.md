@@ -18,17 +18,17 @@ than the default 'Web page':
     the default stylesheet has a table for each report item and in this table
     an entry for each profile, this custom stylesheet has a section for each
     profile and in this section a table for each report item. It's more or
-    less the default stylesheet vice versa. This structure looks a little
-    cleaner to my eyes, particularly if only one profile (like the default
-    'Untitled-1') is used.
+    less the default stylesheet structure vice versa. This structure looks a
+    little cleaner to my eyes, particularly if only one profile (like the
+    default 'Untitled-1') is used.
   * Only average file size is displayed, no sum, max or min values.
   * No filter definitions are displayed.
 
 # Installation
 
 DROID looks for templates and stylesheets in the `.droid6/report_definitions/`
-directory right inside the user home directory, which is `~` on Linux and
-something like `C:\Users\USERNAME\\` on Windows.
+directory right inside the user home directory, which is `/home/USERNAME/` on
+Linux and something like `C:\Users\USERNAME` on Windows.
 
 So copy and rename the files to something you recognize. For example:
 
