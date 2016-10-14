@@ -65,8 +65,7 @@
                 <xsl:value-of select="ContainerSignatureFileVersion" />
                 <xsl:text>)</xsl:text>
             </dd>
-            <dt>Maximum bytes to scan at the start and end of files (a
-                negative value means unlimited scanning)</dt>
+            <dt>Maximum bytes to scan</dt>
             <dd><xsl:value-of select="MaxBytesToScan" /></dd>
             <dt>Analyse content of archive files (zip, tar, gzip)</dt>
             <dd><xsl:value-of select="ProcessArchiveFiles" /></dd>
